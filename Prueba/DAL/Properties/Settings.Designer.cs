@@ -32,5 +32,16 @@ namespace DAL.Properties {
                 return ((string)(this["EstudiantesConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-GS9VTSM\\SQLEXPRESS;Initial Catalog=Estudiantes;Integrated Sec" +
+            "urity=True")]
+        public string EstudiantesConnectionString1 {
+            get {
+                return ((string)(this["EstudiantesConnectionString1"]));
+            }
+        }
     }
 }
