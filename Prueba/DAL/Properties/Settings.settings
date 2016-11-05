@@ -5,18 +5,18 @@
     <Setting Name="EstudiantesConnectionString" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=DESKTOP-GS9VTSM\SQLEXPRESS;Initial Catalog=Estudiantes;&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=CASTELLANOSO\CASTELLANOSO;Initial Catalog=Estudiantes;User ID=sa;Password=database&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=DESKTOP-GS9VTSM\SQLEXPRESS;Initial Catalog=Estudiantes;</Value>
+      <Value Profile="(Default)">Data Source=CASTELLANOSO\CASTELLANOSO;Initial Catalog=Estudiantes;User ID=sa;Password=database</Value>
     </Setting>
     <Setting Name="EstudiantesConnectionString1" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=DESKTOP-GS9VTSM\SQLEXPRESS;Initial Catalog=Estudiantes;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;Data Source=CASTELLANOSO\CASTELLANOSO;Initial Catalog=Estudiantes;User ID=sa;Password=database&lt;/ConnectionString&gt;
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=DESKTOP-GS9VTSM\SQLEXPRESS;Initial Catalog=Estudiantes;Integrated Security=True</Value>
+      <Value Profile="(Default)">Data Source=CASTELLANOSO\CASTELLANOSO;Initial Catalog=Estudiantes;User ID=sa;Password=database</Value>
     </Setting>
   </Settings>
 </SettingsFile>
