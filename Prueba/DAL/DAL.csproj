@@ -108,7 +108,6 @@
     <None Include="DataSetUsuario.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSetUsuario.Designer.cs</LastGenOutput>
     </None>
     <None Include="DataSetUsuario.xss">
       <DependentUpon>DataSetUsuario.xsd</DependentUpon>
