@@ -5,6 +5,7 @@
     <div class="jumbotron">
         <h1>Bienvenidos a la pagina Web</h1>
         <p class="lead">Probando esta cosa como va hahaha haahah</p>
+        <p class="lead">Placido</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
     </div>
 
