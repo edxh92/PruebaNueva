@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSetAlumno.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAlumno.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetAsistencia.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -69,6 +74,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DataSetAlumno.xsc">
+      <DependentUpon>DataSetAlumno.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAlumno.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAlumno.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetAlumno.xss">
+      <DependentUpon>DataSetAlumno.xsd</DependentUpon>
+    </None>
     <None Include="DataSetAsistencia.xsc">
       <DependentUpon>DataSetAsistencia.xsd</DependentUpon>
     </None>
